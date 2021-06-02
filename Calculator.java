@@ -2,6 +2,8 @@ import calc.Arithmetic;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.lang.Float;
+import java.lang.Math;
+
 
 public class Calculator {
 	public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class Calculator {
 			// System.out.println(Arrays.toString(tokens));
 
 
-			if (tokens[0].equals("q")){
+			if (tokens[0].equals("q")){ 
 				System.out.println("You will exit.");
 				break;
 			}
